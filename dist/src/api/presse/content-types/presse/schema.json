@@ -1,0 +1,30 @@
+{
+    "kind": "collectionType",
+    "collectionName": "presses",
+    "info": {
+        "singularName": "presse",
+        "pluralName": "presses",
+        "displayName": "Presse"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "text"
+        },
+        "link": {
+            "type": "string"
+        },
+        "outlet": {
+            "type": "string"
+        },
+        "date": {
+            "type": "date"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

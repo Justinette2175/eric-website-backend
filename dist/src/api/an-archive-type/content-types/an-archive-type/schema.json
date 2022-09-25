@@ -1,0 +1,19 @@
+{
+    "kind": "collectionType",
+    "collectionName": "an_archive_types",
+    "info": {
+        "singularName": "an-archive-type",
+        "pluralName": "an-archive-types",
+        "displayName": "An-Archive Type",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_text_page_titles",
+    "info": {
+        "displayName": "Page Title",
+        "icon": "align-left"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "text"
+        }
+    }
+}

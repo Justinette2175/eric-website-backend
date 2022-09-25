@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "an_archives",
+  "info": {
+    "singularName": "an-archive",
+    "pluralName": "an-archives",
+    "displayName": "An-Archive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "an_archive_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::an-archive-type.an-archive-type"
+    }
+  }
+}

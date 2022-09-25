@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "academique_pages",
+  "info": {
+    "singularName": "academique-page",
+    "pluralName": "academique-pages",
+    "displayName": "Academique Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

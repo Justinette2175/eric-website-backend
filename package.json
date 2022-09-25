@@ -15,7 +15,8 @@
     "@strapi/plugin-users-permissions": "4.3.9",
     "@strapi/strapi": "4.3.9",
     "pg": "^8.6.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-plugin-react-editorjs": "^2.0.2"
   },
   "author": {
     "name": "A Strapi developer"

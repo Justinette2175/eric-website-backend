@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_text_subtitles",
+    "info": {
+        "displayName": "Subtitle",
+        "icon": "align-left"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "text"
+        }
+    }
+}

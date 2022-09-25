@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "publication_types",
+    "info": {
+        "singularName": "publication-type",
+        "pluralName": "publication-types",
+        "displayName": "Publication Type",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "publications": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::publication.publication",
+            "mappedBy": "publication_type"
+        }
+    }
+}

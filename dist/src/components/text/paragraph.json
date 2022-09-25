@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_text_paragraphs",
+    "info": {
+        "displayName": "Paragraph",
+        "icon": "align-left"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "text"
+        }
+    }
+}
