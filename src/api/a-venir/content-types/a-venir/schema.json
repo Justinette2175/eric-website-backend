@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "a_venirs",
+  "info": {
+    "singularName": "a-venir",
+    "pluralName": "a-venirs",
+    "displayName": "A Venir"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

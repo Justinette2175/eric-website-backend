@@ -1,0 +1,5 @@
+/**
+ * email service
+ */
+
+export default () => ({});
